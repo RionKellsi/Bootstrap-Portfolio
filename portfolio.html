@@ -10,52 +10,86 @@
 </head>
 
 <body>
-
+ <!-- To Do : Fix nav bar so it will collapse when screen changes size. // Fix pictures needs space inbetween or two on each row. -->
   <header id="masthead">
     <div class="container">
-      <a href="index.html" id="logo">Rion Irvin</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+        <a href="index.html" id="logo">Rion Irvin</a>
+      <nav class="navbar navbar-static navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="index.html">About</a>
+            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-item nav-link" href="contact.html">Contact</a>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
 
   <div id="main-container" class="container">
     <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="images/dad&me.jpg" alt="Word Guess">
-        
-        <h3>Dad & Me</h3>
-      </div>
-      <div class="work">
-        <img src="images/mom&me.jpg" alt="RPG Game">
-
-        <h3>Mom & Me</h3>
-      </div>
-      <div class="work">
-        <img src="images/tristen.jpg" alt="Trivia Game">
-
-        <h3>Tristen</h3>
-      </div>
-      <div class="work">
-        <img src="images/rylee.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rylee</h3>
+      <div class = "row">
+          <div class = "col">
+             <h1>Portfolio</h1> 
+          </div>
       </div>
 
+      <div class ="row">
+          <div class = "col-md-12">
+                <div class="work">
+                    <img src="images/dad&me.jpg" alt="Word Guess">
+                        
+                    <h3>Dad & Me</h3>
+                </div>
+          </div>
+      </div>
+
+      <!-- <div class ="row">
+          <div class = "col">
+              <br>
+          </div>
+      </div> -->
+
+      <div class = "row">
+          <div class = "col-sm-12">
+                <div class="work">
+                    <img src="images/mom&me.jpg" alt="RPG Game">
+                
+                    <h3>Mom & Me</h3>
+                </div>
+          </div>
+      </div>
+      
+      <div class = "row">
+          <div class = "col-sm-12">
+                <div class="work">
+                    <img src="images/tristen.jpg" alt="Trivia Game">
+                
+                    <h3>Tristen</h3>
+                </div>
+          </div>
+      </div>
+
+      <div class = "row">
+          <div calss = "col-sm-12">
+                <div class="work">
+                        <img src="images/rylee.jpg" alt="Rutgers Info Widget">
+                
+                        <h3>Rylee</h3>
+                </div>
+          </div>
+      </div>
     </section>
 
   </div>
 
   <footer>
-    <div class="container">
-      Copyright &copy; 
-    </div>
-  </footer>
+        <div class="container">
+            <div class="position-sticky">
+            Copyright &copy;
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
